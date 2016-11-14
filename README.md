@@ -4,6 +4,19 @@ Binary search is a search algorithm used to find the position of a target item i
 
 ![Morty Searching](http://i.giphy.com/l41lFw057lAJQMwg0.gif)
 
+### Why is this important?
+<!-- framing the "why" in big-picture/real world examples -->
+*This workshop is important because:*
+
+Not only is binary search a popular interview question, but it's also a fundamental concept in how efficient searches are performed.
+
+### What are the objectives?
+<!-- specific/measurable goal for students to achieve -->
+*After this workshop, developers will be able to:*
+
+- Explain on a high level what a binary search is
+- Implement binary search in JavaScript
+
 ###Steps of Binary Search
 
 1. The binary search algorithm begins by comparing the target value to the value of the middle element of the sorted array. 
