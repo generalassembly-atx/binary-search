@@ -29,12 +29,12 @@ Not only is binary search a popular interview question, but it's also a fundamen
 
 ##Exercise
 
-Everyone in the room gets a number and will be sorted into a collection, lowest to highest. How can we act out binary search to find a specific number? Break it down step by step.
+We can act this out with some volunteers. Each volunteer gets a number and will be sorted into a collection, lowest to highest. How can we act out binary search to find a specific number? Break it down step by step.
 
-After this real-life demo, students will pseudocode their plan for implementing a binary search, swap solutions with a partner from across the room, exchange feedback, and then start coding.
+After this real-life demo, we'll pseudocode a plan for implementing a binary search, and then start coding. We'll go over a possible solution after 10 minutes.
 
 ##Challenge
-Write a binary search algorithm that will take an array and a single number as parameters and return a **boolean true** if that number exists in that array and a **boolean false** if that number does not exists.
+Write a binary search algorithm that will take in 2 arguments: an array and a single number. Return the index of the number if it exists in the array. Return -1 if that number does not exists in the array.
 
 ###Example 1
 
