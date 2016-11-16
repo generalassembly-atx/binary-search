@@ -59,7 +59,9 @@ Implement your binary search algorithm using a recursive pattern!  This method i
 
 ##Recap: 5 minutes
 
-Binary Search is an efficient algorithm with a processes that splits an array input and compares the value at the middle index to the desired number, and then essentially repeats this either in the left or right of the array, resetting the midpoint, until the value is found (or confirmed as not found). This search mechanism is popular, useful, and is the root of many modern searching algorithms in practice currently. 
+Binary Search is an efficient algorithm for searching. This search mechanism is popular, useful, and is the root of many modern searching algorithms in practice currently. 
+
+> Check: Can anyone give their own high-level overview of what binary search does?
 
 We'll talk soon about binary search trees, tries, and the efficiency of this algorithm(tomorrow!).
 
