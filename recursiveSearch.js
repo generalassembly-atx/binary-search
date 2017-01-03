@@ -14,18 +14,23 @@ function recursiveBinSearch(arr, target){
     return 'ERROR';
   }
 
+
+
   var subArray;
   var midIndex = Math.floor(arr.length / 2);
-  /*  Below: the "base case" when we can return a value */
+  /*  the "base case" when we can return a value */
   if(arr[midIndex] === target){
     return midIndex;
-
+  }
+  else if(arr.length === 1 || arr.length === 0){
+    return -1;
+  }
   /* The elses will deal with the cases in which the target
    * does not equal the item in the middle of the Array.
    * First: when the item at the middle is greater than the
    * target value.
    */
-  }else if (arr[midIndex] > target) {
+  else if (arr[midIndex] > target) {
     // slice the array into the first half of the array
     subArray = arr.slice(0, midIndex)
     // and return the result of a binary search that part of it.
@@ -37,10 +42,17 @@ function recursiveBinSearch(arr, target){
   else{
     // slice the array to select the second half of the array.
     subArray = arr.slice(midIndex + 1, arr.length);
-    // to return the proper value, you need to add the length of the
-    // "excluded" first half of the array to the result of the binary
-    // search of the second half of the array.
-    return (midIndex + 1) + recursiveBinSearch(subArray,target);
+    var resultFromSubArray = recursiveBinSearch(subArray,target);
+    // we want a result of -1 to "dominate" any other result so
+    // that -1 is returned if the target wasn't ever found
+    if(resultFromSubArray === -1){
+      return -1;
+    }else{
+      // to return the proper value, you need to add the length of the
+      // "excluded" first half of the array to the result of the binary
+      // search of the second half of the array.
+      return (midIndex + 1) + resultFromSubArray;
+    };
   }
 }
 
