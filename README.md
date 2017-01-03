@@ -4,6 +4,8 @@ Binary search is a search algorithm used to find the position of a target item i
 
 ![Morty Searching](http://i.giphy.com/l41lFw057lAJQMwg0.gif)
 
+##Intro: 5 minutes
+
 ### Why is this important?
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
@@ -17,7 +19,7 @@ Not only is binary search a popular interview question, but it's also a fundamen
 - Explain on a high level what a binary search is
 - Implement binary search in JavaScript
 
-###Steps of Binary Search
+###Steps of Binary Search: 10 minutes
 
 1. The binary search algorithm begins by comparing the target value to the value of the middle element of the sorted array. 
 2. If the target value is equal to the middle element's value, then the position is returned and the search is finished. 
@@ -27,14 +29,14 @@ Not only is binary search a popular interview question, but it's also a fundamen
 
 > What does binary search assume about the set of numbers it will search through?
 
-##Exercise
+##Exercise: 30 minutes
 
-Everyone in the room gets a number and will be sorted into a collection, lowest to highest. How can we act out binary search to find a specific number? Break it down step by step.
+We can act this out with some volunteers. Each volunteer gets a number and will be sorted into a collection, lowest to highest. How can we act out binary search to find a specific number? Break it down step by step.
 
-After this real-life demo, students will pseudocode their plan for implementing a binary search, swap solutions with a partner from across the room, exchange feedback, and then start coding.
+After this real-life demo, we'll pseudocode a plan for implementing a binary search, and then start coding. We'll go over a possible solution after 10 minutes.
 
 ##Challenge
-Write a binary search algorithm that will take an array and a single number as parameters and return a **boolean true** if that number exists in that array and a **boolean false** if that number does not exists.
+Write a binary search algorithm that will take in 2 arguments: an array and a single number. Return the index of the number if it exists in the array. Return -1 if that number does not exists in the array.
 
 ###Example 1
 
@@ -52,7 +54,14 @@ number = 7
 binarySearch(array, number) => -1
 ````
 
-##Stretch Challenge
+##Stretch Challenge: 10 minutes
 Implement your binary search algorithm using a recursive pattern!  This method is faster and more eloquent, but will stretch your imagination and sanity.
 
+##Recap: 5 minutes
+
+Binary Search is an efficient algorithm for searching. This search mechanism is popular, useful, and is the root of many modern searching algorithms in practice currently. 
+
+> Check: Can anyone give their own high-level overview of what binary search does?
+
+We'll talk soon about binary search trees, tries, and the efficiency of this algorithm(tomorrow!).
 
