@@ -6,7 +6,7 @@ Binary search is a search algorithm used to find the position of a target item i
 
 ![Morty Searching](http://i.giphy.com/l41lFw057lAJQMwg0.gif)
 
-##Intro: 5 minutes
+## Intro: 5 minutes
 
 ### Why is this important?
 <!-- framing the "why" in big-picture/real world examples -->
@@ -21,16 +21,24 @@ Not only is binary search a popular interview question, but it's also a fundamen
 - Explain on a high level what a binary search is
 - Implement binary search in JavaScript
 
+
+### Where should we be now?
+<!-- call out the skills that are prerequisites -->
+*Before this workshop, developers should already be able to:*
+
+- Write functions in JavaScript
+- Translate descriptions of a function's behavior into pseudocode and code
+
+
 ### Brute Force
 
 What would be your first instinct on how to simply, *systematically* search a sorted array for a specific number?
 
-The "Brute Force" solution is to move one-by-one from the first element to the final element, checking if they are equal. There are more efficient solutions!
 
 <details>
-  <summary>In Big O notation, what is the efficiency of this algorithm?</summary>
-  <p>It is `O(n)` because it would take one step per element in the list.
-    ![image](https://cloud.githubusercontent.com/assets/6520345/21621192/bcddef82-d1ac-11e6-9c4d-1eb82247d1a5.png)
+  <summary>Click for an idea</summary>
+  <p>
+The "Brute Force" solution is to move one-by-one from the first element to the final element, checking if they are equal. There are more efficient solutions! 
   </p>
 </details>
 
@@ -44,11 +52,14 @@ The "Brute Force" solution is to move one-by-one from the first element to the f
 
 > What does binary search assume about the set of numbers it will search through?
 
-##Exercise: 30 minutes
+## Demo: 10 minutes
+
 
 We can act this out with some volunteers. Each volunteer gets a number and will be sorted into a collection, lowest to highest. How can we act out binary search to find a specific number? Break it down step by step.
 
-After this real-life demo, we'll pseudocode a plan for implementing a binary search, and then start coding. We'll go over a possible solution after 10 minutes.
+## Exercise: 20 minutes
+
+Based on the description above and the real-life demo, pseudocode a plan for implementing a binary search, and then start coding. We'll go over a possible solution after 10 minutes.
 
 ## Challenge
 
@@ -71,6 +82,7 @@ binarySearch(array, number) => -1
 ```
 
 ## Stretch Challenge: 10 minutes
+
 Implement your binary search algorithm using a recursive pattern!  This method is faster and more eloquent, but will stretch your imagination and sanity.
 
 ## Recap: 5 minutes
