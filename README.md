@@ -6,7 +6,7 @@ Binary search is a search algorithm used to find the position of a target item i
 
 ![Morty Searching](http://i.giphy.com/l41lFw057lAJQMwg0.gif)
 
-## Intro: 5 minutes
+## Intro: 
 
 ### Why is this important?
 <!-- framing the "why" in big-picture/real world examples -->
@@ -42,7 +42,7 @@ The "Brute Force" solution is to move one-by-one from the first element to the f
   </p>
 </details>
 
-### Steps of Binary Search: 10 minutes
+### Steps of Binary Search: 
 
 1. The binary search algorithm begins by comparing the target value to the value of the middle element of the sorted array.
 2. If the target value is equal to the middle element's value, then the position is returned and the search is finished.
@@ -52,12 +52,12 @@ The "Brute Force" solution is to move one-by-one from the first element to the f
 
 > What does binary search assume about the set of numbers it will search through?
 
-## Demo: 10 minutes
+## Demo:
 
 
 We can act this out with some volunteers. Each volunteer gets a number and will be sorted into a collection, lowest to highest. How can we act out binary search to find a specific number? Break it down step by step.
 
-## Exercise: 20 minutes
+## Exercise: 
 
 Based on the description above and the real-life demo, pseudocode a plan for implementing a binary search, and then start coding. We'll go over a possible solution after 10 minutes.
 
@@ -81,11 +81,11 @@ number = 7
 binarySearch(array, number) => -1
 ```
 
-## Stretch Challenge: 10 minutes
+## Stretch Challenge: 
 
 Implement your binary search algorithm using a recursive pattern!  This method is faster and more eloquent, but will stretch your imagination and sanity.
 
-## Recap: 5 minutes
+## Recap:
 
 Binary Search is an efficient algorithm for searching. This search mechanism is popular, useful, and is the root of many modern searching algorithms in practice currently.
 
